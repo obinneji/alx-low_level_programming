@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
  * main - entry point
  *
@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	fprintf(stderr, "and that peice of art is useful\" - Dora Korpar, 2015-10-19\n");
+	printf(stderr, "and that peice of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
