@@ -4,7 +4,6 @@
 * main - main block
 *
 * Description: Get a random number and check it digits, compare with 5
-*
 * Return: 0
 */
 int main(void)
