@@ -15,13 +15,13 @@ int main(void)
 	n = rand() - RAND_MAX / 2
 	if(n > 0)
 	{
-		printf("if the number is greater than 0: is positive\n")
+		printf("%i is positive\n", n);
 	} else if (n == 0)	
 	{
-		printf("if the number is zero: is zero\n")
+		printf("%i is nagative\n", n);
 	} else 
 	{
-		printf("if the number is less than 0: is negative\n")
+		printf("%i is zero\n", n);
 	}
 	return (0);
 }
