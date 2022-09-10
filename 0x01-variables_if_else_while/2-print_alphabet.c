@@ -2,7 +2,7 @@
 #include<stdlib.h>
 /*
 * main - main block
-* Description: print all  alphabets in order from a.
+* Description: print all  alphabets in lower case followed by a new line.
 * Return: 0
 */
 int main(void)
