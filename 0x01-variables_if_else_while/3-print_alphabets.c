@@ -1,7 +1,8 @@
 #include<stdio.h>
 /*
 * main - main block
-* Description: prints the alphabets in lowercase and return in upper case, followed by new line.
+* Description: prints the alphabets in lowercase and 
+* return in upper case, followed by new line.
 * Return: 0
 */
 int main(void)
