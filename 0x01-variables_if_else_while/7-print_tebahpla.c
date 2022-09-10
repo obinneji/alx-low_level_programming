@@ -4,7 +4,7 @@
 /**
 * main - main block
 * Description: print all single digit number of base 10
-* starting from 0, followed by a new line
+* starting from 0, followed by a new line.
 */
 int main(void)
 {
