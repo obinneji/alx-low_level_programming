@@ -1,10 +1,10 @@
-#include<stdio.h>
-/*
-* main - main block
-* Description: prints the alphabets in lower case,
-* and then in upper case, followed by a new line.
-* Return: 0
-*/
+#include <stdio.h>
+/**
+ * main - main block
+ * Description:  prints the alphabet in lowercase,
+ * and then in uppercase, followed by a new line.
+ * Return: 0
+ */
 int main(void)
 {
 	char c = 'a';
