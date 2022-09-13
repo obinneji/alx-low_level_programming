@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 * print_last_digit - prints last digit of a numbers
 * @n: the required input
 *
