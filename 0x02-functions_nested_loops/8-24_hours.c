@@ -6,7 +6,7 @@
 * Return: Always 0
 */
 
-void jack_bauer()
+void jack_bauer(void)
 {
 	int hours = 0;
 	int minutes = 0;
@@ -15,7 +15,7 @@ void jack_bauer()
 	{
 		while (minutes <= 59)
 		{
-			printf("%02d:%0d\n", hours, minutes);
+			printf("%02d:%02d\n", hours, minutes);
 			minutes++;
 		}
 		hours++;
