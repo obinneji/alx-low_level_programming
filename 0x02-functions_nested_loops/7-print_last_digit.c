@@ -2,8 +2,7 @@
 /*
 * print_last_digit - prints last digit of a numbers
 * @n: the required input
-* Description: On function call it print last number
-* in the argurment
+* Description: On function call it print last digit of number
 * Return: last digit
 */
 
