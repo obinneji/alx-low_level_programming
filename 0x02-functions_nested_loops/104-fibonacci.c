@@ -13,7 +13,7 @@ int main(void)
 	k = 2;
 
 	printf("%lu", j);
-	
+
 	for (i = 1; i < 91; i++)
 	{
 		printf(", %lu", k);
@@ -37,6 +37,6 @@ int main(void)
 	}
 
 	printf("\n");
-	
+
 	return (0);
 }
