@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	long int fib1 = 1, fib2 = 2, fib3, num = 50, count = 0, i;
+	long int fib1 = 1, fib2 = 2, fib3, num = 50, i;
 
 	for (i = 1; i  <= num; ++i)
 	{
