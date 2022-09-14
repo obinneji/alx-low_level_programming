@@ -7,13 +7,21 @@
 
 int main(void)
 {
-	long int fib1 = 0, fib2 = 1, fib3, num = 50, count = 0;
+	 int fib1 = 0, fib2 = 1, fib3, num = 50, count = 0;
 
 	while (count <= num)
 	{
+		if (fib1 != 20365011074)
+		{
+			printf("%d, ", fib1);
+		}
+		else
+		{
+			printf("%d, " , fib1);
+		}
+
 		fib3 = fib1 + fib2;
 		count++;
-		printf("%d, ", fib3);
 		fib1 = fib2;
 		fib2 = fib3;
 	}
