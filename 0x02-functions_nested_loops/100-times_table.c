@@ -1,25 +1,24 @@
 #include "main.h"
-
 /**
- * print_times_table - prints times table
- * @n : times table to use
- * Return:void
- */
+* print_times_table - prints times table
+* @n: times table to use
+* Return: void
+*/
 
 void print_times_table(int n)
 {
 
-int a = 0, rep, b;
+	int a = 0, rep, b;
 
-if (n < 0 || n > 15)
+	if (n < 0 || n > 15)
 	return;
 
-while (a <= n)
-{
-	for (b = 0; b <= n; b++)
+	while (a <= n)
 	{
-		rep = a * b;
-		if (b == 0)
+		for (b = 0; b <= n; b++)
+		{
+			rep = a * b;
+			if (b == 0)
 			_putchar('0' + rep);
 		else if (rep < 10)
 		{
