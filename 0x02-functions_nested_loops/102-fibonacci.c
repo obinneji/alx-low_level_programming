@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "main.h"
 /**
 * main - print first 50 fibonacci number
 *
@@ -25,6 +26,6 @@ int main(void)
 		fib1 = fib2;
 		fib2 = fib3;
 	}
-
+	_putchar('\n')
 	return (0);
 }
