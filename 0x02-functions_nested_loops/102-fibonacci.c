@@ -9,7 +9,7 @@
 int main(void)
 {
 	int fib1 = 0, fib2 = 1, fib3, num = 50, count = 0;
-	
+
 	while (num < count)
 	{
 	 	fib3 = fib1 + fib2;
@@ -18,6 +18,6 @@ int main(void)
 		fib1 = fib2;
 		fib2 = fib3;
 	}
-	
+
 	return (0);
 }
