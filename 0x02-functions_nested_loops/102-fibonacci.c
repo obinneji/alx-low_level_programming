@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	long int fib1 = 1, fib2 = 2, fib3, num = 50, count = 0;
+	long int fib1 = 1, fib2 = 2, fib3, num = 50, count = 0, i;
 
-	while (count <= num)
+	for (i = 1; i  <= num; ++i)
 	{
 		if (fib1 != 20365011074)
 		{
@@ -22,7 +22,6 @@ int main(void)
 		}
 
 		fib3 = fib1 + fib2;
-		count++;
 		fib1 = fib2;
 		fib2 = fib3;
 	}
