@@ -12,7 +12,7 @@ int main(void)
 
 	while (num < count)
 	{
-	 	fib3 = fib1 + fib2;
+		fib3 = fib1 + fib2;
 		count++;
 		printf("%d, ", fib3);
 		fib1 = fib2;
