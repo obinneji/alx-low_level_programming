@@ -18,7 +18,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%ld, ", fib1);
+			printf("%ld\n", fib1);
 		}
 
 		fib3 = fib1 + fib2;
@@ -26,6 +26,6 @@ int main(void)
 		fib1 = fib2;
 		fib2 = fib3;
 	}
-	_putchar('\n')
+
 	return (0);
 }
