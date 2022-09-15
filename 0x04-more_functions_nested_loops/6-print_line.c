@@ -6,7 +6,7 @@
 * Return: void
 */
 
-void print-line(int n)
+void print_line(int n)
 {
 	int i;
 
@@ -20,7 +20,7 @@ void print-line(int n)
 		{
 			_putchar('_');
 		}
-		
+	
 		_putchar('\n')
 	}
 }
