@@ -2,7 +2,7 @@
 
 /**
 * print-line - print a line
-*
+* @n: number of - to be printed
 * Return: void
 */
 
