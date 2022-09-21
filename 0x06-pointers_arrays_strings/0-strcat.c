@@ -1,20 +1,24 @@
 #include "main.h"
-#include <string.h>
+
 /**
-* _strcat - function that concaternate two strings
-* @dest: first strings/word
-* @src: secord strings/word
-* Return: concaternated character
+* _strcat - This is a function that concaternate
+* @dest: first parameter
+* @src: secord parameter
+* Return: a concanated string
 */
 
 char *_strcat(char *dest, char *src)
 {
-	int i;
+	int len = 0, i;
 
-	int j = strlen(src);
+	while (dest[len])
+		len++;
 
-	for (i = 0; src[i] != '\0'; i++)
-		dest[i + j] = src[i];
-	dest[i + j] = '\0';
+	for (i = 0; src[0] != '\0'; i++)
+	{
+		dest[len] = src[i];
+		len += 1;
+	}
+	dest[len] = '\0';
+	return (dest);
 }
-
