@@ -5,7 +5,7 @@
 * Return: a string
 */
 
-char *string_toupper(int *x)
+char *string_toupper(char *x)
 {
 	int i;
 
