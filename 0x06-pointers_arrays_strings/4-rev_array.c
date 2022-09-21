@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
 * reverse_array - reverse content in an arrray
 * @a: first parameter
