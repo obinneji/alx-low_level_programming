@@ -9,18 +9,12 @@
 
 void reverse_array(int *a, int n)
 {
-	int *s, c, d;
+	int i, j, t;
 
-	s = (int *)malloc(sizeof(int) * n);
-
-	if (s == NULL)
-		exit(EXIT_FAILURE);
-
-	for (c = n - 1, d = 0; c >= 0; c--, d++)
-		*(s + d) = *(a + c);
-
-	for (c = 0; c < n; c++)
-		*(a + c) = *(s + c);
-
-	free(s);
+	for (i = 0, j = (n - 1); i < j; i++, j--)
+	{
+		t = a[i];
+		a[i] = a[j];
+		a[j] = t;
+	}
 }

@@ -5,23 +5,22 @@
 * Return: a number
 */
 
-char *leet(char *x)
+char *leet(char *c)
 {
-	int a = 0; b = 0; l = 5;
-	char tr[5] = {'A', 'E', 'O', 'T', 'L'};
-	char trw[5] = {'4', '3', '0', '7', '1'};
+	int i, j;
 
-	while(x[a])
+	char a[] = "o0ILeEaAtT";
+	char n[] = "0011334477";
+
+	for (i = 0; c[i] != '\0'; i++)
 	{
-		b = 0;
-		
-		while (b < l)
+		for (j = 0; a[j] != '\0'; j++)
 		{
-			if (x[a] === tr[b] || x[a] - 32 == tr[b])
-				x[a] = trw[b];
-			b++;
+			if (c[i] == a[j])
+			{
+				c[i] = c[j];
+			}
 		}
-		a++;
 	}
-	return (x);
+	return (c);
 }
