@@ -8,16 +8,18 @@
 
 void reverse_array(int *a, int n)
 {
-	int *p, i, aux, k;
+	int *s, c, d;
 
-	p = a;
-	for (i = 0; i < n; i++)
-		p++;
-	for (k = 0; k < n / 2; k++)
-	{
-		aux = a[k];
-		a[k] = *p
-		* p = aux;
-		p--;
-	}
+	s = (int *)malloc(sizeof(int) * n);
+
+	if (s == NULL)
+		exit(EXIT_FAILURE);
+
+	for (c = n - 1, d = 0; c >= 0; c--, d++)
+		*(s + d) = *(a + c);
+
+	for (c = 0; c < n; c++)
+		*(a + c) = *(s + c);
+
+	free(s);
 }
