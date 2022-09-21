@@ -1,11 +1,11 @@
 #include "main.h"
 /**
 * cap_string - capitalize all words of a string
-* @x: string parameter
+* @c: string parameter
 * Return: a capitalize string
 */
 
-char *cap_string(char *x)
+char *cap_string(char *c)
 {
 	int i;
 
