@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdio.h>
 /**
 * leet -> a leet function
-* @x: parameter x
+* @c: parameter c
 * Return: a number
 */
 
