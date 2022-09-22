@@ -20,7 +20,7 @@ int main(void)
 	* - you are not allowed to modify p
 	* - only use one statement
 	*/
-	p[5] = 98;
+	*(p + 5) = 98;
 	/*.... so that 98\n */
 	printf("a[2] = %d\n", a[2]);
 
