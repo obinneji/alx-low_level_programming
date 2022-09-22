@@ -12,13 +12,13 @@ char *leet(char *c)
 	char a[] = "oOlLeEaAtT";
 	char n[] = "0011334477";
 
-	for (i = 0; c[i] != '\0'; i++)
+	for (i = 0; *(c + i); i++)
 	{
-		for (j = 0; a[j] != '\0'; j++)
+		for (j = 0; j <= 9; j++)
 		{
-			if (c[i] == a[j])
+			if (a[j] == *(c + i)
 			{
-				c[i] = n[j];
+				*(c + i) = n[j];
 			}
 		}
 	}
