@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* wildcmp = compares two string allowing the wild card char
+* wildcmp - compares two string allowing the wild card char
 * @s1: string being compared
 * @s2: string being compared
-* Return: 1 
+* Return: 1
 */
 int wildcmp(char *s1, char *s2)
 {
