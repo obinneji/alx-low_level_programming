@@ -2,7 +2,7 @@
 /**
 * _pow_recursion - returns the value of x raise to power of y
 * @x: an interger
-* @ y: an interger ---> power of  @x
+* @y: an interger ---> power of  @x
 * Return: values of @x raised to power of @y
 */
 
