@@ -1,0 +1,1 @@
+ creattion of static libaries
