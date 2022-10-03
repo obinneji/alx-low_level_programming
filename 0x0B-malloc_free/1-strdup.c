@@ -12,7 +12,7 @@ char *_strdup(char *str)
 	unsigned int string_length;
 
 	if (str == NULL)
-		return ('\0')
+		return ('\0');
 
 	while (*(str + string_length) != '\0')
 		string_length++;
