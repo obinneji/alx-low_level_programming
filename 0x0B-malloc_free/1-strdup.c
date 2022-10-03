@@ -9,7 +9,7 @@ char *_strdup(char *str)
 {
 	char *alloc_mem;
 	unsigned int i;
-	unsigned int string_length;
+	unsigned int string_length = 0;
 
 	if (str == NULL)
 		return ('\0');
