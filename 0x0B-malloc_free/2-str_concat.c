@@ -7,7 +7,7 @@
 */
 
 
-char *str_concat(char *s1, *s2)
+char *str_concat(char *s1, char *s2)
 {
 	unsigned int s1_len = 0;
 	unsigned int s2_len = 0;
