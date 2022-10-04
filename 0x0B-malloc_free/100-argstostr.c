@@ -1,6 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
-
+/**
+* _strlen - find lengthh of string
+* @s: string
+* Return: int
+*/
 int _strlen(char *s)
 {
 	int size = 0;
@@ -9,7 +13,12 @@ int _strlen(char *s)
 	;
 	return (size);
 }
-
+/**
+* argstostr - description
+* @ac: int
+* @av: arguments
+* Return: string
+*/
 char *argstostr(int ac, char **av)
 {
 	int i = 0, nc = 0, j = 0, cmpt = 0;
