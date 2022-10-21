@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /**
 * free_list - freee a list
 * @head: head of the list
